@@ -1,0 +1,109 @@
+* {
+    font-family: 'Noto Sans Mandaic', sans-serif;
+}
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+  }
+  
+
+
+  
+  .card {
+    margin-bottom: 20px;
+    width: 95%;
+  }
+  
+  .card:nth-child(even) {
+    background-color: #343a40;
+    color: #ffffff;
+    margin-right: none; /* Alinha à borda direita */
+    text-align: none;
+  }
+  
+  .card:nth-child(odd) {
+    background-color: #ffffff;
+    margin-left:none; /* Alinha à borda esquerda */
+  }
+  
+  .btn-saiba-mais {
+    border: 2px solid #007bff;
+    color: #007bff;
+  }
+  
+  .btn-saiba-mais-dark {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #343a40;
+  }
+  
+  .btn-saiba-mais-light {
+    background-color: #ffffff;
+    color: #343a40;
+    border-color: #ffffff;
+  }
+  
+  .btn-saiba-mais:hover {
+    background-color: rgba(255, 255, 255, 0.521);
+  }
+  
+  /* Adicionando estilos para o novo contêiner */
+  .social-container {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-container a {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 24px;
+    transition: .5s;
+  }
+  
+  .social-container p {
+    color: #ffffff;
+  }
+
+
+  
+.text-center {
+    color:#ffffff;
+}
+
+/* Adicione estas regras CSS para remover as margens do corpo e do HTML */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita a rolagem horizontal causada pela remoção das margens */
+  }
+  
+  /* Seu código CSS anterior */
+  
+  body {
+    background-image: url('../IMAGENS/Back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  
+  body::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+
